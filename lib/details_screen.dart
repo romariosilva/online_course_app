@@ -41,7 +41,7 @@ class DetailsScreen extends StatelessWidget {
                       color: kBestSellerColor,
                       padding: EdgeInsets.only(left: 10, top: 5, right: 20, bottom: 5),
                       child: Text(
-                        "BestSeller".toUpperCase(),
+                        "Mais vendido".toUpperCase(),
                         style: TextStyle(
                           fontWeight: FontWeight.w600
                         )
@@ -49,7 +49,7 @@ class DetailsScreen extends StatelessWidget {
                     ),
                   ),
                   SizedBox(height: 16),
-                  Text("Design Thinking", style: kHeadingextStyle),
+                  Text("Pensamento de Design", style: kHeadingextStyle),
                   SizedBox(height: 16),
                   Row(
                     children: [
@@ -101,29 +101,29 @@ class DetailsScreen extends StatelessWidget {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Course Content", style: kTitleTextStyle),
+                            Text("Conteúdo do curso", style: kTitleTextStyle),
                             SizedBox(height: 30),
                             CourseContent(
                               number: "01",
                               duration: 5.35,
-                              title: "Welcome to the Course",
+                              title: "Bem-vindo ao curso",
                               isDone: true,
                             ),
                             CourseContent(
                               number: "02",
                               duration: 19.04,
-                              title: "Design Thinking - Intro",
+                              title: "Introdução",
                               isDone: true,
                             ),
                             CourseContent(
                               number: "03",
                               duration: 15.35,
-                              title: "Design Thinking Process",
+                              title: "O processo",
                             ),
                             CourseContent(
                               number: "04",
                               duration: 5.35,
-                              title: "Customer Perspective",
+                              title: "Perspectiva do cliente",
                             ),
                           ],
                         ),
@@ -170,7 +170,7 @@ class DetailsScreen extends StatelessWidget {
                                   color: kBlueColor
                                 ),
                                 child: Text(
-                                  "Buy Now",
+                                  "Compre agora",
                                   style: kSubtitleTextSyule.copyWith(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold

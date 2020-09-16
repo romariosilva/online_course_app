@@ -41,8 +41,8 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
             SizedBox(height: 30),
-            Text("Hey Alex", style: kHeadingextStyle,),
-            Text("Find a course you want to learn", style: kSubheadingextStyle,),
+            Text("Olá Alysson", style: kHeadingextStyle,),
+            Text("Ache um curso que queira aprender", style: kSubheadingextStyle,),
             Container(
               margin: EdgeInsets.symmetric(vertical: 30),
               padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                   SvgPicture.asset("assets/icons/search.svg"),
                   SizedBox(width: 16),
                   Text(
-                    "Search for anything",
+                    "Procure por alguma coisa",
                     style: TextStyle(
                       fontSize: 18,
                       color: Color(0xFFA0A5BD)
@@ -69,9 +69,9 @@ class HomeScreen extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                  Text("Category", style: kTitleTextStyle),
+                  Text("Categoria", style: kTitleTextStyle),
                   Text(
-                    "See All",
+                    "Veja todos",
                     style: kSubtitleTextSyule.copyWith(color: kBlueColor),
                   ),
               ],
@@ -114,7 +114,7 @@ class HomeScreen extends StatelessWidget {
                             style: kTitleTextStyle
                           ),
                           Text(
-                            '${categories[index].numOfCourses} Courses',
+                            '${categories[index].numOfCourses} Cursos',
                             style: TextStyle(
                               color: kTextColor.withOpacity(.5),
                             ),
