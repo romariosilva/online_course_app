@@ -34,7 +34,7 @@ class DetailsScreen extends StatelessWidget {
                       SvgPicture.asset("assets/icons/more-vertical.svg"),
                     ],
                   ),
-                  SizedBox(height: 30),
+                  SizedBox(height: 20),
                   ClipPath(
                     clipper: BestSellerClipper(),
                     child: Container(
@@ -84,7 +84,7 @@ class DetailsScreen extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 60),
+            SizedBox(height: 40),
             Expanded(
               child: Container(
                 width: double.infinity,
@@ -125,6 +125,7 @@ class DetailsScreen extends StatelessWidget {
                               duration: 5.35,
                               title: "Perspectiva do cliente",
                             ),
+                            SizedBox(height: 40)
                           ],
                         ),
                       ),
